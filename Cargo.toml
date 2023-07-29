@@ -1,0 +1,19 @@
+[package]
+name = "advent-of-code"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+#debug = 1
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0"
+itertools = "0.10"
+nalgebra = "0.31"
+pathfinding = "4.0.0"
+nom = "7.1"
+num-traits = "0.2"
+derivative = "2.2"
+rustc-hash = "1.1"
